@@ -1,6 +1,6 @@
 # utf8_java9_sample1
 
-- このプロジェクトは、文字コード：MS932
+- このプロジェクトは、文字コード：UTF8
 - 使用しているIDE：eclipse 4.6 Neon
 - JDKのヴァージョン：JDK 9
 
