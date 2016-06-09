@@ -5,12 +5,12 @@
 - JDKのヴァージョン：JDK 9
 
 ## プロジェクトの作成
-プロジェクト名：utf8_java9_sample1
-JavaSE-9（Neonにて java 9 supportのプラグインを導入すれば使用可能）
+- プロジェクト名：utf8_java9_sample1
+- JavaSE-9（Neonにて java 9 supportのプラグインを導入すれば使用可能）
 
 ## 新規ソース・フォルダの作成
-src/com.example
-src/com.greetings
+- src/com.example
+- src/com.greetings
 
 ## module-info.javaの作成
 
@@ -25,6 +25,8 @@ src/com.greetings
 もしくは、「新規」→「ソースフォルダー」でもできる。
 
 プロジェクトのフォルダの構成に関しては、以下の情報を参考にしました。
+
+
 リンク１）
 http://d.hatena.ne.jp/torutk/20120602/p1
 
@@ -37,10 +39,14 @@ eclipseにて補完がききますので、大丈夫でしょう。
 ## ソースの作成
 
 このプロジェクトの構成は元ネタとして以下のものをベースに使っています。
+
+
 リンク２）
 http://openjdk.java.net/projects/jigsaw/quick-start
 
 また、この方の日本語解説も参考にしました。
+
+
 リンク３）
 http://qiita.com/hashiwa/items/9ae1f8ad8d2e8f916664
 
@@ -58,9 +64,13 @@ com.example
 まず、GitHubで対象のリポジトリを作成するところから始める。
 
 page
+
+
 https://github.com/hidetarou2013/utf8_java9_sample1
 
 git clone path
+
+
 git@github.com:hidetarou2013/utf8_java9_sample1.git
 
 
@@ -79,10 +89,10 @@ git remote add origin git@github.com:hidetarou2013/utf8_java9_sample1.git
 
 今回は、eclipseにてやってしまうので、
 
-subversion管理を切断し
-Git管理スタートし、
-まずは、ローカルリポジトリをeclipseのworkspaceとは別に作成しておき
-そこに自動で移動されるので、
-edit .git/config　し
-PUSHする
+- subversion管理を切断し
+- Git管理スタートし、
+- まずは、ローカルリポジトリをeclipseのworkspaceとは別に作成しておき
+- そこに自動で移動されるので、
+- edit .git/config　し
+- PUSHする
 
